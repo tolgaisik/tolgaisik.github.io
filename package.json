@@ -1,0 +1,20 @@
+{
+  "name": "project-land",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.0.0-beta2",
+    "bootstrap-icons": "^1.4.0",
+    "jquery": "^3.6.0",
+    "tether": "^1.4.7"
+  }
+}
