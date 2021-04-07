@@ -69,3 +69,10 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
     }
     node.addEventListener('animationend', handleAnimationEnd, {once: false});
 });
+function copyEmail() {
+    console.log("Here")
+    var copyText = document.getElementById("email");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+}

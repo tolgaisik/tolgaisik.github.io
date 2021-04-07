@@ -1,11 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html, body {
     height: 100%;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
 }
-p{
-    font-family: 'Courier New', Courier, monospace ;
-}
+
 body{
     overflow-x:hidden;  
     overflow-y: hidden;
@@ -20,9 +18,7 @@ body{
 .topcornerexit:hover{
     color: blueviolet;
 }
-h1, h3{
-    font-family: monospace;
-}
+
 .owl{
     position: absolute;
 }
@@ -73,7 +69,7 @@ h1, h3{
     
 }
 .main-logo{    
-    background-image: url("images/logo.jpg");
+    background-image: url("images/tolga1.png");
     background-position: center;
     background-size:50%;
     background-repeat: no-repeat;
