@@ -5,7 +5,7 @@ $(() => {
     animateCSS('left','slideInLeft');
     animateCSS('right', 'slideInRight')
 })
-
+//
 
 var frames = ['#contact-frame', '#profile-frame', '#about-frame', '#askus-frame']
 var clickables = ['#contact','#profile','#about','#askus']
