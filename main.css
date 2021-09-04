@@ -1,136 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-html, body {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@200;300&display=swap");
+html,
+body {
+  height: 100%;
 }
 
-body{
-    overflow-x:hidden;  
-    overflow-y: hidden;
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.topcornerexit{
-    position:absolute;
-    top:10px;
-    right: 10px;
-    font-size: 8rem;
-    z-index: inherit;
- }
-.topcornerexit:hover{
-    color: blueviolet;
+.lato {
+  font-family: "Lato", sans-serif !important;
+}
+.nunito {
+  font-family: "Nunito", sans-serif !important;
+}
+.topcornerexit {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 60px;
+  z-index: inherit;
+}
+.email-container {
+  margin-top: 40px;
+  background-color: rgba(65, 194, 194, 0.199);
+
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.background {
+  height: 85%;
+  border: 1px solid rgba(0, 75, 55, 0.8);
+  border-radius: 3px;
+  padding: 40px !important;
+  background-color: rgba(65, 194, 194, 0.199);
+}
+.copy-email {
+  background-color: inherit;
+  padding: 6px 10px;
+  text-align: center;
+  margin-left: auto;
+  border-radius: 3px;
+}
+.copy-email:hover {
+  background-color: rgb(137, 43, 226);
+}
+.float-right {
+  float: right;
+}
+.topcornerexit:hover {
+  color: blueviolet;
 }
 
-.owl{
-    position: absolute;
+.owl {
+  position: absolute;
 }
-.nodisplay{
-    display:none;
+.nodisplay {
+  display: none;
 }
-.z-1{
-    z-index: -1;
+.z-1 {
+  z-index: -1;
 }
-.z-2{
-    z-index: -2;
+.z-2 {
+  z-index: -2;
 }
-.z-3{
-    z-index: -3;
+.z-3 {
+  z-index: -3;
 }
-.z-4{
-    z-index: -4;
+.z-4 {
+  z-index: -4;
 }
 .side-item {
-    color: white;
-    background-size: 100% 100%;
-    transition: background-size 0.5s ease;
-    filter: blur(1px);
+  color: white;
+  background-size: 100% 100%;
+  transition: background-size 0.5s ease;
+  filter: blur(1px);
 }
-.contact{
-    background-image: url("images/cntl.png");
-    box-shadow:inset 0 0 0 2000px rgba(0, 75, 55, 0.8);
-    
+.contact {
+  background-image: url("images/cntl.png");
+  box-shadow: inset 0 0 0 2000px rgba(0, 75, 55, 0.8);
 }
-.side-item:hover{
-    background-size: 110% 110%;
-    filter: blur(0);
+.side-item:hover {
+  background-size: 110% 110%;
+  filter: blur(0);
 }
 
-.askus{
-    background-image: url("images/askus.jpg");
-    box-shadow:inset 0 0 0 2000px rgba(126, 82, 0, 0.8);
-    
+.askus {
+  background-image: url("images/askus.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(126, 82, 0, 0.8);
 }
-.profile{
-    background-image: url("images/profile.jpg");
-    box-shadow:inset 0 0 0 2000px rgba(5, 43, 48, 0.8);
-    
+.profile {
+  background-image: url("images/profile.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(5, 43, 48, 0.8);
 }
-.about{
-    background-image: url("images/about.jpg");
-    box-shadow:inset 0 0 0 2000px rgba(134, 37, 60, 0.8);
-    
+.about {
+  background-image: url("images/about.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(134, 37, 60, 0.8);
 }
-.main-logo{    
-    background-image: url("images/tolga1.png");
-    background-position: center;
-    background-size:50%;
-    background-repeat: no-repeat;
-    background-color: #f7f7f7;
+.main-logo {
+  background-image: url("images/tolga1.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
 }
 .smoothed {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.contact-icon{
-    font-size: 30px;
+.contact-icon {
+  margin: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #123939;
+  border-radius: 40px;
+  padding: 0px 4px;
+  color: rgba(252, 253, 253);
+  transition: 0.3s ease;
 }
-.contact-icon:hover{
-    color: rgb(134, 37, 60);
+.contact-icon:hover {
+  border-radius: 3px;
+  background-color: rgb(137, 43, 226);
+  color: rgb(255, 255, 255);
 }
-.icon-row{
-    margin-top: 40px;
+.icon-row {
+  margin-top: 40px;
 }
 .cnt-frm {
-    background: rgb(6, 22, 22);
-    color: white;
+  background: rgb(6, 22, 22);
+  color: white;
 }
-.prf-frm{
-    background: rgb(2, 18, 20);
+.prf-frm {
+  background: rgb(2, 18, 20);
 }
-.bt-frm{
-    background: rgb(14, 4, 6);
+.bt-frm {
+  background: rgb(14, 4, 6);
 }
-.sk-frm{
-    background-color: rgb(8, 5, 0);
+.sk-frm {
+  background-color: rgb(8, 5, 0);
 }
-.move-on-scroll{
-    background-image: url("images/owl.png");
-    height: 300px;
-    background-repeat: no-repeat;
+.move-on-scroll {
+  background-image: url("images/owl.png");
+  height: 300px;
+  background-repeat: no-repeat;
 }
-.exit:hover{
-    transform: scale(1.1);
+
+.exit:hover {
+  transform: scale(1.1);
 }
-#loading{
-    display: block;
+#loading {
+  display: block;
 }
 .typewriter small {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid black; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  to {
+    width: 100%;
   }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
   }
+  50% {
+    border-color: black;
+  }
+}
